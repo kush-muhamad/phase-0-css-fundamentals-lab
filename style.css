@@ -1,5 +1,40 @@
 body {
+  padding: 0%;
+  margin: 0;
+}
+header {
+  text-align: center;
+}
+header nav {
+  padding: 20px, 0px;
+}
+header nav a {
+  padding: 10px, 0;
+  text-decoration: none;
+  background-color: aquamarine;
+}
+#featured-property {
   width: 100%;
   height: 100%;
-  margin: 0;
+  text-align: center;
+}
+
+#featured-property figure {
+  padding: 18px;
+}
+
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  padding: 20px, 0;
+  margin: auto;
+  font-size: 14px;
+}
+#details{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  text-decoration: none;
+  background-color: aqua;
+  margin:20px;
 }
